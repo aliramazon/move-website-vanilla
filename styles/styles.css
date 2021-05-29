@@ -1,3 +1,64 @@
-p {
-    font-size: var(--font-size-6);
+/* ---------- Reusable ---------- */
+
+.container {
+    width: 100%;
+}
+
+.row {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 0 var(--spacing-12);
+}
+
+.nav__link {
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-500);
+    line-height: var(--spacing-6);
+    color: var(--text-color-20);
+}
+
+.btn {
+    font-family: inherit;
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-500);
+    border-radius: var(--spacing-3);
+    border: none;
+    padding: 0 var(--spacing-6);
+}
+
+.btn-sm {
+    height: var(--btn-sm-height);
+}
+
+.btn-lg {
+    height: var(--btn-sm-height);
+}
+
+.btn-contained {
+    background-color: var(--blue-100);
+    color: var(--white);
+}
+
+.btn-outlined {
+    background-color: var(--blue-10);
+    color: var(--blue-100);
+}
+
+/* ---------- Top Navigation ---------- */
+
+.nav__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 13.3rem;
+}
+
+.nav__logo {
+    height: var(--logo-big--height);
+    width: auto;
+}
+
+.nav__links {
+    display: flex;
+    gap: var(--spacing-7);
 }
