@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: space-between;
     height: var(--spacing-14);
-    margin-bottom: var(--spacing-13);
 }
 
 .nav__logo {
@@ -19,6 +18,21 @@
 }
 
 /* ---------- Header ---------- */
+
+#header {
+    height: 118rem;
+    padding-top: var(--spacing-13);
+    position: relative;
+}
+
+#after-header-bg {
+    position: absolute;
+    bottom: 0;
+    height: 38rem;
+    width: 100%;
+    background-color: var(--bg-color-20);
+    z-index: -1;
+}
 
 .header__content {
     display: flex;
@@ -43,4 +57,14 @@
     justify-content: center;
     gap: var(--spacing-7);
     margin-top: var(--spacing-9);
+}
+
+img.header__hero {
+    height: auto;
+    width: 100%;
+    max-width: 140rem;
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
 }
