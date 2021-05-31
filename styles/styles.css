@@ -68,3 +68,35 @@ img.header__hero {
     left: 50%;
     transform: translateX(-50%);
 }
+
+/* ---------- Featured Section ---------- */
+
+.featured-section {
+    height: 25rem;
+    background-color: var(--bg-color-20);
+}
+
+.featured-section__heading {
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-400);
+    color: var(--text-color-20);
+    text-align: center;
+}
+
+.featured-section__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-7);
+}
+
+.featured-section__logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-section img {
+    height: 42px;
+    width: auto;
+}
