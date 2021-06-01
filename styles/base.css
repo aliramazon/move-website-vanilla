@@ -59,6 +59,7 @@
     /* Colors */
 
     --blue-10: #e5f1ff;
+    --blue-20: #cce3ff;
     --blue-90: #377dff;
     --blue-100: #1366ff;
     --green-10: #eafaf3;
@@ -180,7 +181,7 @@ section {
 .btn-primary {
     background-color: var(--blue-90);
     color: var(--white);
-    transition: background-color 0.7s;
+    transition: background-color 0.3s;
 }
 
 .btn-primary:hover {
@@ -190,6 +191,11 @@ section {
 .btn-secondary {
     background-color: var(--blue-10);
     color: var(--blue-90);
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: var(--blue-20);
 }
 
 /* Typography */
