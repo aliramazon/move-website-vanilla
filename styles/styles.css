@@ -101,7 +101,7 @@ img.header__hero {
     width: auto;
 }
 
-/* ---------- advantages Section ---------- */
+/* ---------- Advantages Section ---------- */
 .advantages-section {
     background-color: var(--bg-color-10);
 }
@@ -124,7 +124,7 @@ img.header__hero {
 .advantages-section__image {
     display: flex;
     align-items: center;
-    flex: 0 55%;
+    flex: 0 0 55%;
 }
 
 .advantages-section__image img {
@@ -155,4 +155,66 @@ img.header__hero {
 .advantages-section__list li:first-child,
 .advantages-section__list li:nth-child(2) {
     margin-bottom: var(--spacing-7);
+}
+
+/* ---------- Advantages Section ---------- */
+
+.package-section__content {
+    display: flex;
+    gap: var(--spacing-12);
+}
+
+.package-section__image {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+}
+
+.package-section__image img {
+    width: 100%;
+    height: auto;
+}
+
+.package-section__info {
+    flex: 0 1 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-7);
+}
+
+.package-section__details {
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--spacing-9);
+}
+
+.package-section__detail {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-3);
+}
+
+.package-section__detail span:first-child {
+    font-size: var(--font-size-8);
+    font-weight: var(--font-weight-600);
+}
+
+.package-section__detail span:last-child {
+    font-size: var(--font-size-5);
+    font-weight: 400;
+    color: var(--text-color-10);
+}
+
+.package-score {
+    color: var(--green-100);
+}
+
+.package-installs {
+    color: var(--blue-90);
+}
+
+.package-satisfaction {
+    color: var(--yellow-100);
 }
