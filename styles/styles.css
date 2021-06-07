@@ -220,6 +220,9 @@ img.header__hero {
 }
 
 /* ---------- Advantages Section ---------- */
+.video-section {
+    background-color: var(--bg-color-20);
+}
 
 .video-section h2,
 .video-section p {
@@ -234,6 +237,11 @@ img.header__hero {
 
 .video-section p {
     margin-bottom: var(--spacing-11);
+}
+
+.video-section__video-wrapper {
+    max-width: 102.8rem;
+    margin: 0 auto;
 }
 
 .video-section__video {
