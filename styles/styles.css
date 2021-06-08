@@ -224,21 +224,6 @@ img.header__hero {
     background-color: var(--bg-color-20);
 }
 
-.video-section h2,
-.video-section .sub-heading-2 {
-    text-align: center;
-    max-width: 86rem;
-    margin: 0 auto;
-}
-
-.video-section h2 {
-    margin-bottom: var(--spacing-7);
-}
-
-.video-section .sub-heading-2 {
-    margin-bottom: var(--spacing-11);
-}
-
 .video-section__video-wrapper {
     max-width: 102.8rem;
     height: 56.8rem;
@@ -256,21 +241,6 @@ img.header__hero {
 /* ---------- Features Section ---------- */
 .features-section {
     background-color: var(--bg-color-20);
-}
-
-.features-section h2,
-.features-section .sub-heading-2 {
-    text-align: center;
-    max-width: 86rem;
-    margin: 0 auto;
-}
-
-.features-section h2 {
-    margin-bottom: var(--spacing-7);
-}
-
-.features-section .sub-heading-2 {
-    margin-bottom: var(--spacing-11);
 }
 
 .features-section__cards {
@@ -305,4 +275,10 @@ img.header__hero {
     font-size: var(--font-size-4);
     line-height: var(--line-height-4);
     color: var(--text-color-20);
+}
+
+/* ---------- Pricing Section ---------- */
+
+.pricing-section {
+    background-color: var(--bg-color-10);
 }
