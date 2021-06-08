@@ -198,6 +198,39 @@ section {
     background-color: var(--blue-20);
 }
 
+/* Slider */
+#slider-checkbox {
+    display: none;
+}
+.slider__track {
+    display: flex;
+    align-items: center;
+    padding: 0 0.7rem;
+    height: 4.1rem;
+    width: 9.1rem;
+    background-color: var(--bg-color-30);
+    border-radius: 3.3rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.slider__thumb {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    background-color: var(--bg-color-10);
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+#slider-checkbox:checked + .slider__track {
+    background-color: var(--green-100);
+}
+
+#slider-checkbox:checked + .slider__track .slider__thumb {
+    margin-left: 4.7rem;
+}
+
 /* Typography */
 
 .heading-1 {
@@ -233,4 +266,18 @@ h6 {
     line-height: var(--line-height-5);
     color: var(--text-color-20);
     font-weight: var(--font-weight-400);
+}
+
+.centered-h2 {
+    text-align: center;
+    max-width: 78rem;
+    margin: 0 auto;
+    margin-bottom: var(--spacing-7);
+}
+
+.centered-subheading-2 {
+    text-align: center;
+    max-width: 78rem;
+    margin: 0 auto;
+    margin-bottom: var(--spacing-11);
 }
