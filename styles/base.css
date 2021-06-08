@@ -221,6 +221,13 @@ h2 {
     font-weight: var(--font-weight-600);
 }
 
+h6 {
+    font-size: var(--font-size-7);
+    line-height: var(--line-height-7);
+    font-weight: var(--font-weight-500);
+    color: var(--text-color-40);
+}
+
 .sub-heading-2 {
     font-size: var(--font-size-5);
     line-height: var(--line-height-5);

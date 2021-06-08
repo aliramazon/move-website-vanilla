@@ -69,21 +69,21 @@ img.header__hero {
     transform: translateX(-50%);
 }
 
-/* ---------- Featured Section ---------- */
+/* ---------- trustedby Section ---------- */
 
-.featured-section {
+.trustedby-section {
     height: 25rem;
     background-color: var(--bg-color-20);
 }
 
-.featured-section__heading {
+.trustedby-section__heading {
     font-size: var(--font-size-6);
     font-weight: var(--font-weight-400);
     color: var(--text-color-20);
     text-align: center;
 }
 
-.featured-section__content {
+.trustedby-section__content {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -91,12 +91,12 @@ img.header__hero {
     gap: var(--spacing-7);
 }
 
-.featured-section__logos {
+.trustedby-section__logos {
     display: flex;
     justify-content: space-between;
 }
 
-.featured-section img {
+.trustedby-section img {
     height: 42px;
     width: auto;
 }
@@ -157,7 +157,7 @@ img.header__hero {
     margin-bottom: var(--spacing-7);
 }
 
-/* ---------- Advantages Section ---------- */
+/* ---------- Package Section ---------- */
 
 .package-section__content {
     display: flex;
@@ -219,13 +219,13 @@ img.header__hero {
     color: var(--yellow-100);
 }
 
-/* ---------- Advantages Section ---------- */
+/* ---------- Video Section ---------- */
 .video-section {
     background-color: var(--bg-color-20);
 }
 
 .video-section h2,
-.video-section p {
+.video-section .sub-heading-2 {
     text-align: center;
     max-width: 86rem;
     margin: 0 auto;
@@ -235,18 +235,74 @@ img.header__hero {
     margin-bottom: var(--spacing-7);
 }
 
-.video-section p {
+.video-section .sub-heading-2 {
     margin-bottom: var(--spacing-11);
 }
 
 .video-section__video-wrapper {
     max-width: 102.8rem;
+    height: 56.8rem;
     margin: 0 auto;
 }
 
 .video-section__video {
     border: none;
-    height: 56.8rem;
+
     width: 100%;
+    height: 100%;
     border-radius: 1rem;
+}
+
+/* ---------- Features Section ---------- */
+.features-section {
+    background-color: var(--bg-color-20);
+}
+
+.features-section h2,
+.features-section .sub-heading-2 {
+    text-align: center;
+    max-width: 86rem;
+    margin: 0 auto;
+}
+
+.features-section h2 {
+    margin-bottom: var(--spacing-7);
+}
+
+.features-section .sub-heading-2 {
+    margin-bottom: var(--spacing-11);
+}
+
+.features-section__cards {
+    display: flex;
+    gap: var(--spacing-7);
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    flex: 1 0 30rem;
+    background-color: var(--bg-color-10);
+    padding: var(--spacing-7);
+    border-radius: 1.5rem;
+    transition: all 0.3s;
+}
+
+.feature-card:hover {
+    box-shadow: 0rem 5rem 7.7rem rgba(176, 183, 195, 0.22);
+}
+
+.feature-card__icon {
+    height: 8rem;
+    width: 8rem;
+    margin-bottom: 2.9rem;
+}
+
+.feature-card__heading {
+    margin-bottom: 2.1rem;
+}
+
+.feature-card__description {
+    font-size: var(--font-size-4);
+    line-height: var(--line-height-4);
+    color: var(--text-color-20);
 }
