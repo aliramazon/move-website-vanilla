@@ -40,7 +40,7 @@
     --spacing-2: 0.4rem;
     --spacing-3: 0.8rem;
     --spacing-4: 1.2rem;
-    --spacing-5: 1.6rem;
+    --spacing-5: 1.8rem;
     --spacing-6: 2.4rem;
     --spacing-7: 3.2rem;
     --spacing-8: 4rem;
@@ -163,7 +163,12 @@ section {
 
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: var(--spacing-5);
+}
+
+.btn-full-width {
+    width: 100%;
 }
 
 .btn-sm {
@@ -199,6 +204,7 @@ section {
 }
 
 /* Slider */
+
 #slider-checkbox {
     display: none;
 }
@@ -254,11 +260,28 @@ h2 {
     font-weight: var(--font-weight-600);
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: var(--font-weight-600);
+    color: var(--text-color-40);
+}
+
+h4 {
+    font-size: var(--font-size-9);
+    line-height: var(--line-height-9);
+}
+
+h5 {
+    font-size: var(--font-size-8);
+    line-height: var(--line-height-8);
+}
+
 h6 {
     font-size: var(--font-size-7);
     line-height: var(--line-height-7);
-    font-weight: var(--font-weight-500);
-    color: var(--text-color-40);
 }
 
 .sub-heading-2 {
