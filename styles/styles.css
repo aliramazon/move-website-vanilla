@@ -366,3 +366,55 @@ img.header__hero {
     height: 2.8rem;
     width: 2.8rem;
 }
+
+/* ---------- CTA Section ---------- */
+
+.cta-section {
+    padding: var(--spacing-10);
+}
+
+.cta-section::after {
+    content: "";
+    display: block;
+    height: var(--spacing-1);
+    max-width: calc(1440px - 192px);
+    margin: 0 auto;
+    background-color: var(--bg-color-20);
+
+    position: relative;
+    top: var(--spacing-10);
+}
+
+.cta-section .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-7);
+}
+
+.cta-section__text {
+    flex: 1 0 max-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: var(--spacing-4);
+}
+
+.cta-section__text > h5 {
+    line-height: 3.2rem;
+}
+
+.cta-section__text > p {
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-400);
+    line-height: var(--spacing-6);
+    color: var(--text-color-20);
+}
+
+.cta-section__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-7);
+}
