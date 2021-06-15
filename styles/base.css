@@ -123,7 +123,8 @@ a {
     padding: 0 var(--spacing-12);
 }
 
-section {
+section,
+footer {
     padding: var(--spacing-14) 0;
 }
 
