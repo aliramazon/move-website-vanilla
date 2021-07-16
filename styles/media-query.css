@@ -1,19 +1,12 @@
-/* Media Query Details */
-/* Mobile: 0 -767px, 
-Tablet-portrait: 768px - 900px,
-Tablet-landscape: 900px - 1200px,
-Laptop: 1200px - 1440px,
-Desktop: 1440px - up */
-
+/* Below 1440px (Smaller Desktops */
 @media only screen and (max-width: 90em) {
-    html {
-        font-size: 56.25%;
-    }
 }
+
+/* Below 1200px (Landscape Tablets) */
 
 @media only screen and (max-width: 75em) {
     html {
-        font-size: 50%;
+        font-size: 56.25%; /* 9px */
     }
 
     .row {
@@ -21,16 +14,21 @@ Desktop: 1440px - up */
     }
 }
 
+/* Below 900px (Tablets) */
+
 @media only screen and (max-width: 56.25em) {
     html {
-        font-size: 37.5%;
+        font-size: 37.5%; /* 8px */
     }
 }
+
+/* Below 767px (Smaller Tablets) */
 
 @media only screen and (max-width: 47.94em) {
     .row {
         padding: 0 var(--spacing-10);
     }
+
     /* ---------- TrustedBy Section ---------- */
 
     .trustedby-section__logos {
@@ -62,36 +60,20 @@ Desktop: 1440px - up */
     }
 }
 
-@media only screen and (max-width: 40em) {
-    /* ---------- Header ---------- */
-
-    #header {
-        height: 105rem;
-    }
-
-    #after-header-bg {
-        height: 30rem;
-    }
-}
-/* ---------- Header ---------- */
-
 @media only screen and (max-width: 30em) {
     /* ---------- Header ---------- */
-    #after-header-bg {
-        height: 20rem;
-    }
 
     .heading-1 {
         font-size: var(--font-size-11);
+        line-height: var(--line-height-11);
+    }
+
+    h2 {
+        font-size: var(--font-size-10);
+        line-height: var(--line-height-10);
     }
 
     .header__buttons {
-        flex-direction: column-reverse;
-    }
-}
-
-@media only screen and (max-width: 23.75em) {
-    #after-header-bg {
-        height: 10rem;
+        flex-direction: column;
     }
 }

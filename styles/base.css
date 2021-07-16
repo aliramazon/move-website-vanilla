@@ -308,32 +308,3 @@ h6 {
     margin: 0 auto;
     margin-bottom: var(--spacing-11);
 }
-/*
-    CSS for PC desktop (bigger than 1020px)
-*/
-
-@media screen and (max-width: 480px) {
-    /*CSS for mobile phone(smaller than 480px)*/
-}
-@media screen and (max-width: 767px) {
-    /*CSS for mobile phone (bigger than 480px and smaller than 767px)*/
-}
-@media screen and (max-width: 1020px) {
-    /*CSS for tablet (bigger than 767px and smaller than 1020px)*/
-}
-
-/*
-    CSS for mobile phone (smaller than 480px)
-*/
-
-@media screen and (min-width: 1020px) {
-    /*CSS for PC desktop (bigger than 1020px)*/
-}
-
-@media screen and (min-width: 767px) {
-    /*CSS for tablet (bigger than 767px and smaller than 1020px)*/
-}
-
-@media screen and (min-width: 480px) {
-    /*CSS for mobile phone (bigger than 480px and smaller than 767px)*/
-}
