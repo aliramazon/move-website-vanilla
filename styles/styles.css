@@ -72,7 +72,6 @@ img.header__hero {
 /* ---------- trustedby Section ---------- */
 
 .trustedby-section {
-    height: 25rem;
     background-color: var(--bg-color-20);
 }
 
@@ -97,7 +96,7 @@ img.header__hero {
 }
 
 .trustedby-section img {
-    height: 42px;
+    height: 4.2rem;
     width: auto;
 }
 
@@ -113,7 +112,8 @@ img.header__hero {
 }
 
 .advantages-section__info {
-    flex: 0 1 45%;
+    flex: 0 1 50%;
+    order: 1;
 
     display: flex;
     flex-direction: column;
@@ -124,7 +124,8 @@ img.header__hero {
 .advantages-section__image {
     display: flex;
     align-items: center;
-    flex: 0 0 55%;
+    flex: 0 0 50%;
+    order: 2;
 }
 
 .advantages-section__image img {
@@ -155,6 +156,11 @@ img.header__hero {
 .advantages-section__list li:first-child,
 .advantages-section__list li:nth-child(2) {
     margin-bottom: var(--spacing-7);
+}
+
+.advantages-section__list li > img {
+    height: 3.6rem;
+    width: auto;
 }
 
 /* ---------- Package Section ---------- */
@@ -311,9 +317,11 @@ img.header__hero {
     border-radius: 1.5rem;
     padding: var(--spacing-8);
     transition: all 0.3s;
+    position: relative;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .pricing-card:hover {
@@ -370,19 +378,15 @@ img.header__hero {
 /* ---------- CTA Section ---------- */
 
 .cta-section {
-    padding: var(--spacing-10);
+    padding: var(--spacing-10) 0;
 }
 
-.cta-section::after {
+.cta-section__seperator {
     content: "";
     display: block;
     height: var(--spacing-1);
-    max-width: calc(1440px - 192px);
     margin: 0 auto;
     background-color: var(--bg-color-20);
-
-    position: relative;
-    top: var(--spacing-10);
 }
 
 .cta-section .row {

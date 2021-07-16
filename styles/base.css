@@ -153,6 +153,10 @@ footer {
     gap: var(--spacing-5);
 }
 
+img.cta-link__arrow {
+    height: 2.1rem;
+    width: auto;
+}
 /* Buttons */
 
 .btn {
@@ -240,20 +244,6 @@ footer {
 
 /* Typography */
 
-.heading-1 {
-    font-size: var(--font-size-12);
-    color: var(--text-color-40);
-    line-height: var(--line-height-12);
-    font-weight: var(--font-weight-600);
-}
-
-.sub-heading-1 {
-    font-size: var(--font-size-5);
-    color: var(--text-color-20);
-    line-height: var(--line-height-5);
-    font-weight: var(--font-weight-400);
-}
-
 h2 {
     font-size: var(--font-size-11);
     line-height: var(--line-height-11);
@@ -285,6 +275,19 @@ h6 {
     line-height: var(--line-height-7);
 }
 
+.heading-1 {
+    font-size: var(--font-size-12);
+    color: var(--text-color-40);
+    line-height: var(--line-height-12);
+    font-weight: var(--font-weight-600);
+}
+
+.sub-heading-1 {
+    font-size: var(--font-size-5);
+    color: var(--text-color-20);
+    line-height: var(--line-height-5);
+    font-weight: var(--font-weight-400);
+}
 .sub-heading-2 {
     font-size: var(--font-size-5);
     line-height: var(--line-height-5);
@@ -304,4 +307,33 @@ h6 {
     max-width: 78rem;
     margin: 0 auto;
     margin-bottom: var(--spacing-11);
+}
+/*
+    CSS for PC desktop (bigger than 1020px)
+*/
+
+@media screen and (max-width: 480px) {
+    /*CSS for mobile phone(smaller than 480px)*/
+}
+@media screen and (max-width: 767px) {
+    /*CSS for mobile phone (bigger than 480px and smaller than 767px)*/
+}
+@media screen and (max-width: 1020px) {
+    /*CSS for tablet (bigger than 767px and smaller than 1020px)*/
+}
+
+/*
+    CSS for mobile phone (smaller than 480px)
+*/
+
+@media screen and (min-width: 1020px) {
+    /*CSS for PC desktop (bigger than 1020px)*/
+}
+
+@media screen and (min-width: 767px) {
+    /*CSS for tablet (bigger than 767px and smaller than 1020px)*/
+}
+
+@media screen and (min-width: 480px) {
+    /*CSS for mobile phone (bigger than 480px and smaller than 767px)*/
 }

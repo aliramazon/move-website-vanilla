@@ -1,0 +1,97 @@
+/* Media Query Details */
+/* Mobile: 0 -767px, 
+Tablet-portrait: 768px - 900px,
+Tablet-landscape: 900px - 1200px,
+Laptop: 1200px - 1440px,
+Desktop: 1440px - up */
+
+@media only screen and (max-width: 90em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 50%;
+    }
+
+    .row {
+        padding: 0 var(--spacing-11);
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 37.5%;
+    }
+}
+
+@media only screen and (max-width: 47.94em) {
+    .row {
+        padding: 0 var(--spacing-10);
+    }
+    /* ---------- TrustedBy Section ---------- */
+
+    .trustedby-section__logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--spacing-10);
+    }
+    /* ---------- Advantages Section ---------- */
+
+    .row.advantages-section__content {
+        padding-right: var(--spacing-11);
+        flex-direction: column;
+    }
+
+    /* ---------- Package Section ---------- */
+
+    .package-section__content {
+        flex-direction: column-reverse;
+    }
+
+    /* ---------- Package Section ---------- */
+
+    .footer__content {
+        gap: var(--spacing-10);
+    }
+
+    .company__brand {
+        flex: 100%;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    /* ---------- Header ---------- */
+
+    #header {
+        height: 105rem;
+    }
+
+    #after-header-bg {
+        height: 30rem;
+    }
+}
+/* ---------- Header ---------- */
+
+@media only screen and (max-width: 30em) {
+    /* ---------- Header ---------- */
+    #after-header-bg {
+        height: 20rem;
+    }
+
+    .heading-1 {
+        font-size: var(--font-size-11);
+    }
+
+    .header__buttons {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 23.75em) {
+    #after-header-bg {
+        height: 10rem;
+    }
+}

@@ -12,18 +12,19 @@
         />
         <link rel="stylesheet" href="./styles/base.css" />
         <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" href="./styles/media-query.css" />
     </head>
     <body>
         <nav class="container nav">
             <div class="row nav__content">
                 <img src="./assets/Logo.svg" alt="Move" class="nav__logo" />
-                <ul class="nav__links">
+                <!-- <ul class="nav__links">
                     <li><a href="#" class="nav__link">Home</a></li>
                     <li><a href="#" class="nav__link">Pages</a></li>
                     <li><a href="#" class="nav__link">Blog</a></li>
                     <li><a href="#" class="nav__link">Portfolio</a></li>
                 </ul>
-                <button class="btn btn-sm btn-primary">Get Starter</button>
+                <button class="btn btn-sm btn-primary">Get Starter</button> -->
             </div>
         </nav>
         <header id="header">
@@ -48,7 +49,6 @@
                     </div>
                 </div>
             </div>
-            x
             <img
                 class="header__hero"
                 src="./assets/hero@2x.png"
@@ -321,7 +321,12 @@
                                 Ability to integrate with CMS
                             </li>
                         </ul>
-                        <button class="btn btn-lg btn-full-width btn-secondary">
+                        <button
+                            class="
+                                btn btn-lg btn-full-width btn-secondary
+                                pricing-card__btn
+                            "
+                        >
                             Try for free
                         </button>
                     </div>
@@ -444,6 +449,10 @@
                 </div>
             </div>
         </section>
+        <div class="row">
+            <div class="cta-section__seperator"></div>
+        </div>
+
         <footer>
             <div class="row footer__content">
                 <div class="company__brand">
