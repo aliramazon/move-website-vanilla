@@ -27,7 +27,7 @@
 #after-header-bg {
     position: absolute;
     bottom: 0;
-    height: 20vw;
+    height: 23vw;
     width: 100%;
     background-color: var(--bg-color-20);
     z-index: -1;
@@ -63,12 +63,7 @@ img.header__hero {
     height: auto;
     width: 100%;
     max-width: 140rem;
-
     margin: 0 auto;
-    /* position: absolute;
-
-    left: 50%;
-    transform: translateX(-50%); */
 }
 
 /* ---------- trustedby Section ---------- */
