@@ -102,6 +102,7 @@ html,
 body {
     -webkit-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
+    text-size-adjust: none;
 }
 
 ul {
