@@ -39,6 +39,7 @@
 
     .row.package-section__content {
         flex-direction: column-reverse;
+        margin-bottom: var(--spacing-12);
     }
 
     /* ---------- Footer---------- */
