@@ -17,8 +17,7 @@
 
     .trustedby-section__logos {
         justify-content: center;
-        column-gap: var(--spacing-10);
-        row-gap: var(--spacing-10);
+        gap: var(--spacing-10);
     }
 }
 
@@ -34,30 +33,24 @@
     .row.advantages-section__content {
         padding-right: var(--spacing-11);
         flex-direction: column;
-        row-gap: var(--spacing-12);
+        gap: var(--spacing-12);
     }
 
     /* ---------- Package Section ---------- */
 
     .row.package-section__content {
         flex-direction: column;
-        row-gap: var(--spacing-12);
+        gap: var(--spacing-12);
     }
 
     /* ---------- Footer---------- */
 
     .footer__content {
-        row-gap: var(--spacing-7);
-        column-gap: var(--spacing-7);
+        gap: var(--spacing-7);
     }
 
     .company__brand {
         flex: 100%;
-    }
-
-    /* */
-    .cta-section .row {
-        row-gap: var(--spacing-7);
     }
 }
 
@@ -69,37 +62,6 @@
     }
     .row {
         padding: 0 var(--spacing-10);
-    }
-
-    /* ---------- Advantages Section ---------- */
-
-    .row.advantages-section__content {
-        padding-right: var(--spacing-11);
-        flex-direction: column;
-        row-gap: var(--spacing-12);
-    }
-
-    /* ---------- Package Section ---------- */
-
-    .row.package-section__content {
-        flex-direction: column;
-        row-gap: var(--spacing-12);
-    }
-
-    /* ---------- Footer---------- */
-
-    .footer__content {
-        row-gap: var(--spacing-7);
-        column-gap: var(--spacing-7);
-    }
-
-    .company__brand {
-        flex: 100%;
-    }
-
-    /* */
-    .cta-section .row {
-        row-gap: var(--spacing-7);
     }
 }
 
@@ -131,37 +93,6 @@
 
     .header__buttons {
         flex-direction: column;
-        row-gap: var(--spacing-7);
-    }
-
-    /* ---------- Advantages Section ---------- */
-
-    .row.advantages-section__content {
-        padding-right: var(--spacing-11);
-        flex-direction: column;
-        row-gap: var(--spacing-12);
-    }
-
-    /* ---------- Package Section ---------- */
-
-    .row.package-section__content {
-        flex-direction: column;
-        row-gap: var(--spacing-12);
-    }
-
-    /* ---------- Footer---------- */
-
-    .footer__content {
-        row-gap: var(--spacing-7);
-        column-gap: var(--spacing-7);
-    }
-
-    .company__brand {
-        flex: 100%;
-    }
-
-    /* */
-    .cta-section .row {
-        row-gap: var(--spacing-7);
+        gap: var(--spacing-7);
     }
 }
