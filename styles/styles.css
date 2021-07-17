@@ -29,7 +29,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: var(--spacing-7);
+    column-gap: var(--spacing-7);
 }
 
 /* ---------- Header ---------- */
@@ -77,7 +77,7 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    gap: var(--spacing-7);
+    column-gap: var(--spacing-7);
     margin-top: var(--spacing-9);
 }
 
@@ -114,13 +114,15 @@ img.header__hero {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    gap: var(--spacing-7);
+    row-gap: var(--spacing-7);
 }
 
 .trustedby-section__logos {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -141,7 +143,7 @@ img.header__hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: var(--spacing-12);
+    column-gap: var(--spacing-12);
 }
 
 .advantages-section__info {
@@ -153,9 +155,7 @@ img.header__hero {
     order: 1;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -164,7 +164,7 @@ img.header__hero {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    gap: var(--spacing-7);
+    row-gap: var(--spacing-7);
 }
 
 .advantages-section__image {
@@ -200,19 +200,21 @@ img.header__hero {
     justify-content: flex-start;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    column-gap: var(--spacing-7);
+    row-gap: var(--spacing-6);
 }
 
 .advantages-section__list li {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+    flex: 0 0 45%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: var(--spacing-5);
+    column-gap: var(--spacing-5);
 
     font-size: var(--font-size-4);
     line-height: var(--line-height-4);
@@ -220,10 +222,10 @@ img.header__hero {
     color: var(--text-color-10);
 }
 
-.advantages-section__list li:first-child,
+/* .advantages-section__list li:first-child,
 .advantages-section__list li:nth-child(2) {
     margin-bottom: var(--spacing-7);
-}
+} */
 
 .advantages-section__list li > img {
     height: 3.6rem;
@@ -236,7 +238,7 @@ img.header__hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: var(--spacing-12);
+    column-gap: var(--spacing-12);
 }
 
 .package-section__image {
@@ -273,7 +275,7 @@ img.header__hero {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    gap: var(--spacing-7);
+    row-gap: var(--spacing-7);
 }
 
 .package-section__details {
@@ -283,7 +285,7 @@ img.header__hero {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    gap: var(--spacing-9);
+    column-gap: var(--spacing-9);
 }
 
 .package-section__detail {
@@ -294,7 +296,7 @@ img.header__hero {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: var(--spacing-3);
+    row-gap: var(--spacing-3);
 }
 
 .package-section__detail span:first-child {
@@ -348,7 +350,8 @@ img.header__hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: var(--spacing-7);
+    column-gap: var(--spacing-7);
+    row-gap: var(--spacing-7);
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
@@ -402,7 +405,7 @@ img.header__hero {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    gap: var(--spacing-6);
+    column-gap: var(--spacing-6);
     margin-bottom: var(--spacing-10);
 }
 
@@ -417,7 +420,8 @@ img.header__hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: var(--spacing-7);
+    column-gap: var(--spacing-7);
+    row-gap: var(--spacing-7);
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
@@ -436,7 +440,6 @@ img.header__hero {
     position: relative;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
 
     display: flex;
@@ -472,7 +475,7 @@ img.header__hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: var(--spacing-6);
+    column-gap: var(--spacing-6);
     padding-bottom: var(--spacing-8);
     margin-bottom: var(--spacing-8);
     border-bottom: var(--spacing-1) solid var(--bg-color-20);
@@ -495,7 +498,7 @@ img.header__hero {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: var(--spacing-5);
+    row-gap: var(--spacing-5);
     margin-bottom: var(--spacing-9);
 }
 
@@ -506,7 +509,7 @@ img.header__hero {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: var(--spacing-4);
+    column-gap: var(--spacing-4);
 }
 
 .pricing-card__list > li > img {
@@ -540,7 +543,7 @@ img.header__hero {
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: var(--spacing-7);
+    column-gap: var(--spacing-7);
 }
 
 .cta-section__text {
@@ -557,7 +560,7 @@ img.header__hero {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: var(--spacing-4);
+    row-gap: var(--spacing-4);
 }
 
 .cta-section__text > h5 {
@@ -581,7 +584,7 @@ img.header__hero {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: var(--spacing-7);
+    column-gap: var(--spacing-7);
 }
 
 /* ---------- Footer ---------- */
@@ -613,7 +616,7 @@ img.header__hero {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    gap: var(--spacing-7);
+    row-gap: var(--spacing-7);
 }
 
 .company__logo {
@@ -635,7 +638,7 @@ img.header__hero {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: var(--spacing-6);
+    column-gap: var(--spacing-6);
 }
 
 .company__links ul {
@@ -646,9 +649,11 @@ img.header__hero {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: var(--spacing-5);
+    row-gap: var(--spacing-5);
 }
 
-.company__links > h6 {
-    margin-bottom: var(--spacing-7);
+.company__links {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-7);
 }

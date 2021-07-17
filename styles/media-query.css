@@ -19,6 +19,16 @@
     .row {
         padding: 0 var(--spacing-11);
     }
+
+    /* ---------- TrustedBy Section ---------- */
+
+    .trustedby-section__logos {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        column-gap: var(--spacing-10);
+        row-gap: var(--spacing-10);
+    }
 }
 
 /* Below 900px (Tablets) */
@@ -28,16 +38,6 @@
         font-size: 50%; /* 8px */
     }
 
-    /* ---------- TrustedBy Section ---------- */
-
-    .trustedby-section__logos {
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        gap: var(--spacing-10);
-    }
     /* ---------- Advantages Section ---------- */
 
     .row.advantages-section__content {
@@ -46,6 +46,7 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+        row-gap: var(--spacing-12);
     }
 
     /* ---------- Package Section ---------- */
@@ -55,19 +56,26 @@
         -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
-        gap: var(--spacing-12);
+        row-gap: var(--spacing-12);
     }
 
     /* ---------- Footer---------- */
 
     .footer__content {
-        gap: var(--spacing-10);
+        justify-content: flex-start;
+        column-gap: var(--spacing-10);
+        row-gap: var(--spacing-10);
     }
 
     .company__brand {
         -webkit-box-flex: 100%;
         -ms-flex: 100%;
         flex: 100%;
+    }
+
+    /* */
+    .cta-section .row {
+        row-gap: var(--spacing-7);
     }
 }
 
@@ -105,5 +113,6 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+        row-gap: var(--spacing-7);
     }
 }
