@@ -39,6 +39,10 @@
 
     .row.package-section__content {
         flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .package-section__info {
         margin-bottom: var(--spacing-12);
     }
 
@@ -92,6 +96,8 @@
         gap: var(--spacing-7);
         margin-bottom: var(--spacing-7);
     }
+
+    /* ---------- Advantages ---------- */
 
     .advantages-section__list li {
         flex: 100%;
