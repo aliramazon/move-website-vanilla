@@ -55,6 +55,7 @@
         -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
+        gap: var(--spacing-12);
     }
 
     /* ---------- Footer---------- */
@@ -82,6 +83,9 @@
 }
 
 @media only screen and (max-width: 30em) {
+    .row {
+        padding: 0 var(--spacing-9);
+    }
     /* ---------- Typography ---------- */
 
     .heading-1 {
