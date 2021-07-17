@@ -62,8 +62,7 @@
     /* ---------- Footer---------- */
 
     .footer__content {
-        column-gap: var(--spacing-10);
-        row-gap: var(--spacing-10);
+        row-gap: var(--spacing-7);
     }
 
     .company__brand {
@@ -92,6 +91,11 @@
 @media only screen and (max-width: 30em) {
     .row {
         padding: 0 var(--spacing-9);
+    }
+
+    section,
+    footer {
+        padding: var(--spacing-12) 0;
     }
     /* ---------- Typography ---------- */
 
