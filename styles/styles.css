@@ -207,7 +207,7 @@ img.header__hero {
 .advantages-section__list li {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
-    flex: 0 0 45%;
+    flex: 0 0 40%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -221,11 +221,6 @@ img.header__hero {
     font-weight: var(--font-weight-400);
     color: var(--text-color-10);
 }
-
-/* .advantages-section__list li:first-child,
-.advantages-section__list li:nth-child(2) {
-    margin-bottom: var(--spacing-7);
-} */
 
 .advantages-section__list li > img {
     height: 3.6rem;
