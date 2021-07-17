@@ -234,7 +234,7 @@ img.header__hero {
 
 /* ---------- Package Section ---------- */
 
-.package-section__content {
+.row.package-section__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -51,18 +51,17 @@
 
     /* ---------- Package Section ---------- */
 
-    .package-section__content {
+    .row.package-section__content {
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
+        flex-direction: column;
         row-gap: var(--spacing-12);
     }
 
     /* ---------- Footer---------- */
 
     .footer__content {
-        justify-content: flex-start;
         column-gap: var(--spacing-10);
         row-gap: var(--spacing-10);
     }
