@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* Below 1440px (Smaller Desktops */
 @media only screen and (max-width: 90em) {
 }
@@ -18,21 +25,16 @@
 
 @media only screen and (max-width: 56.25em) {
     html {
-        font-size: 37.5%; /* 8px */
-    }
-}
-
-/* Below 767px (Smaller Tablets) */
-
-@media only screen and (max-width: 47.94em) {
-    .row {
-        padding: 0 var(--spacing-10);
+        font-size: 50%; /* 8px */
     }
 
     /* ---------- TrustedBy Section ---------- */
 
     .trustedby-section__logos {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         gap: var(--spacing-10);
     }
@@ -40,28 +42,47 @@
 
     .row.advantages-section__content {
         padding-right: var(--spacing-11);
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
     /* ---------- Package Section ---------- */
 
     .package-section__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
 
-    /* ---------- Package Section ---------- */
+    /* ---------- Footer---------- */
 
     .footer__content {
         gap: var(--spacing-10);
     }
 
     .company__brand {
+        -webkit-box-flex: 100%;
+        -ms-flex: 100%;
         flex: 100%;
     }
 }
 
+/* Below 768px (Smaller Tablets) */
+
+@media only screen and (max-width: 48em) {
+    html {
+        font-size: 37.5%; /* 6px */
+    }
+    .row {
+        padding: 0 var(--spacing-10);
+    }
+}
+
 @media only screen and (max-width: 30em) {
-    /* ---------- Header ---------- */
+    /* ---------- Typography ---------- */
 
     .heading-1 {
         font-size: var(--font-size-11);
@@ -73,7 +94,12 @@
         line-height: var(--line-height-10);
     }
 
+    /* ---------- Header ---------- */
+
     .header__buttons {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 }
