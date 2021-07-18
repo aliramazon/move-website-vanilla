@@ -28,6 +28,15 @@
         font-size: 50%; /* 8px */
     }
 
+    /* ---------- Nav---------- */
+    .nav__links {
+        display: none;
+    }
+
+    .nav__cta-btn {
+        display: none;
+    }
+
     /* ---------- Advantages Section ---------- */
 
     .row.advantages-section__content {
