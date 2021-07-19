@@ -2,7 +2,7 @@ const headerElement = document.querySelector("#header");
 const navElement = document.querySelector(".nav");
 let options = {
     root: null,
-    rootMargin: "-96px",
+    rootMargin: `-150px`,
     threshold: 0
 };
 
