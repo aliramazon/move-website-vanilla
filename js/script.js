@@ -27,10 +27,9 @@ const closeIcon = document.querySelector("#close-icon");
 const mobileNav = document.querySelector(".mobile-nav");
 
 menuIcon.addEventListener("click", function () {
-    mobileNav.style.display = "block";
+    mobileNav.classList.add("mobile-nav--show");
 });
 
 closeIcon.addEventListener("click", function () {
-    console.log("ohhhhh");
-    mobileNav.style.display = "none";
+    mobileNav.classList.remove("mobile-nav--show");
 });

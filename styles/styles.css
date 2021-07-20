@@ -37,7 +37,8 @@
 /* Mobile */
 
 .mobile-nav {
-    display: none;
+    width: 0%;
+    overflow: hidden;
 }
 
 #menu-icon {
